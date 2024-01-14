@@ -7,7 +7,7 @@
 padding-top: 50px;
 }
 .nav-container{
-border: 2px solid red;
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -25,11 +25,11 @@ font-size: 24px;
 
 }
 .nav-child1{
-    border: 2px solid orange;
+    
     flex: 1;
 }
 .nav-child2{
-    border: 2px solid green;
+    
     flex: 1;
 }
 .nav-child2 ul{
@@ -47,7 +47,63 @@ font-size: 24px;
     font-size: 16px;
     font-family: Poppins;
 }
+/* banner styles */
+.banner-container{
+    
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+}
+.banner-text{
+    
+    flex: 1;
+    display: flex;
+   justify-content: center;
+   
+    
+    
+}
+.banner-text-child{
+    
+    width: 100%;
+    margin-top: 50px;
+}
+.banner-title{
+    color: #3A3A3A;
+    font-weight: 700;
+
+font-family: Poppins;
+font-size: 52px;
+}
+.banner-description{
+    color: #3A3A3A;
+    font-weight: 600;
+width: 70%;
+font-family: Poppins;
+font-size: 16px;
+margin: 15px 0;
+
+}
+.banner-btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border: 0;
+color: #FFF;
+font-weight: 700;
+font-size: 16px;
+font-family: Poppins;
+}
 
 
 
+
+
+.banner-img{
+    
+    flex: 1;
+}
     
