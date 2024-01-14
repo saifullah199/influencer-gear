@@ -81,7 +81,7 @@ font-size: 52px;
 width: 70%;
 font-family: Poppins;
 font-size: 16px;
-margin: 15px auto;
+margin: 15px 0;
 
 }
 .banner-btn{
@@ -106,7 +106,20 @@ font-family: Poppins;
     
     flex: 1;
 }
-   @media screen and (max-width:576px){
+/* sponsor section styles */
+.sponsor-container{
+    width: 90%;
+    
+}
+.sponsor-images{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 50px auto;
+}
+
+@media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
     }
@@ -134,6 +147,7 @@ font-family: Poppins;
         font-size: 14px;
         text-align: center;
         font-weight: 500;
+        margin: 15px auto;
     }
     .banner-img img {
         width: 70%;
@@ -142,3 +156,7 @@ font-family: Poppins;
         text-align: center;
     }
    } 
+   .sponsor-images{
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
