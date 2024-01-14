@@ -81,7 +81,7 @@ font-size: 52px;
 width: 70%;
 font-family: Poppins;
 font-size: 16px;
-margin: 15px 0;
+margin: 15px auto;
 
 }
 .banner-btn{
@@ -106,4 +106,39 @@ font-family: Poppins;
     
     flex: 1;
 }
-    
+   @media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-child2 ul li{
+        margin-right: 5px;
+        
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-text-child{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 28px;
+        font-weight: 700;
+
+    }
+    .banner-description{
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .banner-img img {
+        width: 70%;
+    }
+    .banner-img {
+        text-align: center;
+    }
+   } 
